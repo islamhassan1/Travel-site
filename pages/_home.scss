@@ -1,0 +1,115 @@
+.setion-about {
+	padding: 17rem 0;
+	margin-top: -20vh;
+	margin-bottom: 15rem;
+
+	@include respond(tab-port) {
+		padding: 9rem 0;
+	}
+
+	@include respond(phone) {
+		padding: 10rem 0;
+	}
+}
+
+///////////////////
+
+.section-features {
+	padding: 20rem 0;
+	margin-bottom: 5rem;
+	background-image: linear-gradient(to right bottom, rgba(111, 130, 213, 0.8), rgba(49, 40, 180, 0.8)),
+		url(image/mountain2.jpg);
+	background-size: cover;
+
+	transform: skewY(-7deg);
+
+	@include respond(tab-port) {
+		padding: 6rem 0;
+	}
+
+	& > * {
+		transform: skewY(7deg);
+	}
+}
+///////////
+.section-tours {
+	padding: 17rem 0;
+	margin-top: -20vh;
+
+	@include respond(tab-port) {
+		margin-top: -40vh;
+	}
+}
+////////////////////////////
+
+.section-stories {
+	position: relative;
+	padding: 0 0;
+
+	@include respond(tab-port) {
+		margin-top: -10rem;
+	}
+}
+/////////////////////////
+.section-book {
+	padding: 7rem 2rem;
+	background-image: linear-gradient(to right bottom, $light-blue, $dark-blue);
+
+	@include respond(tab-port) {
+		padding: 0rem 0;
+	}
+
+	@include respond(phone) {
+		padding: 0rem 0;
+	}
+}
+
+.book {
+	background-image: linear-gradient(
+			105deg,
+			rgba(244, 245, 250, 0.9) 0%,
+			rgba(248, 248, 250, 0.9) 50%,
+			transparent 50%
+		),
+		url(image/natural9.jpg);
+	background-size: 100%;
+	border-radius: 3px;
+	box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .2);
+
+	height: 38rem;
+
+	@include respond(tab-land) {
+		background-image: linear-gradient(
+				105deg,
+				rgba(244, 245, 250, 0.9) 0%,
+				rgba(248, 248, 250, 0.9) 70%,
+				transparent 70%
+			),
+			url(image/natural9.jpg);
+		background-size: cover;
+	}
+
+	@include respond(tab-port) {
+		background-image: linear-gradient(to right, rgba(244, 245, 250, 0.9) 0%, rgba(248, 248, 250, 0.9) 100%),
+			url(image/natural9.jpg);
+	}
+
+	&__form {
+		width: 50%;
+		padding: 6rem;
+
+		@include respond(tab-land) {
+			width: 90%;
+		}
+
+		@include respond(tab-port) {
+			width: 100%;
+		}
+
+		@include respond(phone) {
+			padding: 1.6rem;
+		}
+	}
+}
+
+///////////////////////
