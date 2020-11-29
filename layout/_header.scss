@@ -16,10 +16,13 @@
 		position: absolute;
 		top: 40px;
 		left: 60px;
+		background: #fff;
+		border-radius: 50%;
 	}
 
 	&__logo {
 		width: 100px;
+		height: 90px;
 	}
 
 	&__text-box {
