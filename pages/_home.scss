@@ -44,7 +44,7 @@
 
 .section-stories {
 	position: relative;
-	padding: 0 0;
+	padding: 50px 0;
 
 	@include respond(tab-port) {
 		margin-top: -10rem;
