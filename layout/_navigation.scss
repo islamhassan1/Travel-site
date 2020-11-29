@@ -7,8 +7,8 @@
 		background-color: white;
 		height: 4rem;
 		width: 4rem;
-		position: fixed;
-		top: 6rem;
+		position: absolute;
+		top: 40px;
 		right: 6rem;
 		border-radius: 50%;
 		z-index: 2000;
@@ -30,8 +30,8 @@
 		height: 3rem;
 		width: 3rem;
 		border-radius: 50%;
-		position: fixed;
-		top: 6.5rem;
+		position: absolute;
+		top: 40px;
 		right: 6.5rem;
 		background-image: radial-gradient($light-blue, $dark-blue);
 		z-index: 1000;
